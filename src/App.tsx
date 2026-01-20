@@ -2,6 +2,7 @@ import { SnowEffect } from './components/SnowEffect';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
+import { History } from './components/History';
 import { Programs } from './components/Programs';
 import { Leadership } from './components/Leadership';
 import { Applicants } from './components/Applicants';
@@ -19,6 +20,7 @@ export default function App() {
       <main className="pt-20">
         <Hero />
         <About />
+        <History />
         <Programs />
         <Leadership />
         <Applicants />
