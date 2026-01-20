@@ -45,7 +45,7 @@ export function Header() {
               <ImageWithFallback
                 src={logo}
                 alt={t("header.logoAlt")}
-                className="h-full -ml-10 object-contain"
+                className="h-full w-full object-contain"
               />
             </div>
 
